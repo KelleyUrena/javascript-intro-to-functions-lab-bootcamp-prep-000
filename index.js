@@ -21,12 +21,12 @@ function sayHiToGrandma(string) {
 }
 
 function logShout(string) {
-  if (string.toUpperCase === string)
+  if (string.toUpperCase() === string)
   console.log ("HELLO")
 }
 
 function logWhisper(string) {
-  if (string.toLowerCase === string)
+  if (string.toLowerCase() === string)
   console.log ("hello")
 }
 
